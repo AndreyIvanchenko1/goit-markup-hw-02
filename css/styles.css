@@ -1,6 +1,9 @@
 body {
-  font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
+  font-family: "Roboto", sans-serif;
+  width: 1440px;
+  height: 3300px;
   background: #fff;
+  color: #434455;
 }
 ul {
   list-style: none;
@@ -32,11 +35,13 @@ button {
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.header-logo-blue {
   color: #4d5ae5;
 }
-.header-logo:hover,
+.header-logo-stud {
+  color: #2e2f42;
+}
+
+.header-logo > span:hover,
 .header-logo:focus {
   color: #404bbf;
 }
@@ -59,7 +64,7 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #14141a;
+  color: #434455;
 }
 .header-address-link:hover,
 .header-address-link:focus {
@@ -67,7 +72,7 @@ button {
 }
 /*-------- hero-------*/
 .hero {
-  background: rgba(17, 17, 17, 0.6);
+  background-color: #2e2f42;
 }
 .hero-title {
   font-weight: 700;
@@ -78,19 +83,21 @@ button {
   color: #fff;
 }
 .hero-butn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 }
 .hero-butn:hover {
   font-weight: 600;
+  background-color: #404bbf;
 }
 .hero-butn:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #404bbf;
+  background-color: #404bbf;
 }
 /*-------- FEATURES-------*/
 .features {
@@ -116,6 +123,7 @@ button {
 }
 /*-------- TEAM-------*/
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -129,6 +137,7 @@ button {
 .team-list {
 }
 .team-list-item {
+  background-color: #ffffff;
 }
 .team-image {
 }
@@ -179,10 +188,9 @@ button {
 /*-------FOOTER-------*/
 
 .footer {
+  background-color: #2e2f42;
 }
 .footer-logo {
-}
-.footer-logo-blue {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -191,13 +199,8 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.footer-logo-white {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+
+.footer--logo-stud {
   color: #f4f4fd;
 }
 
@@ -207,8 +210,7 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-
-.footer-logo:hover,
+.footer-logo > span:hover,
 .footer-logo:focus {
   color: #404bbf;
 }
